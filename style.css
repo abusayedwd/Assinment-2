@@ -1,6 +1,10 @@
 /* font style link  font work */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,400&family=Work+Sans:wght@500&display=swap');
-
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
 
 body{
         
@@ -297,6 +301,137 @@ header{
        }
               
         
+        /* media query responsive styles */
+
+       /* mobile divise */
+
+        @media only screen and (max-width:688px) {
+             
+             /* hreader section--------- */
+              .header-section{
+                     width: 1250px;
+              }
+              .nav-bar{
+                     flex-direction: column;
+              }
+
+              /* ---features & chose section responsive------- */
+
+              .features-section{
+                    grid-template-columns: repeat(1, 1fr);
+                    flex-direction: column;
+                    align-items: normal;
+                     margin-left: 200px;
+                     width: 500px;
+                    
+
+              }
+              .features-chose-section{
+                      flex-direction: column;
+                      
+              }
+              .chose-love, .love{
+                     width: 700px;
+                     margin-left: 200px;
+                     padding: 100px;
+              }
+              .chose-head{
+                     font-size: 40px;
+              }
+              .chose-pera{
+                     font-size: 28px;
+              }
+              .chose-enjoy{
+                     font-size: 59px;
+                     margin-bottom: 30px;
+              }
+              .pera{
+                     font-size: 34px;
+              }
+              .chose-img{
+                   margin-left: 300px;
+                   margin-bottom: 40px;
+              }
+              .chose-btn{
+                margin-right: 858px;     
+              }
+
+              /*------- some facts section responsive */
+
+              .box-container{
+                     grid-template-columns:repeat(1, 1fr) ;
+                     flex-direction: column;
+                      row-gap: 30px;
+                      margin-left: 300px;
+                       
+        }
+        .box-detail{
+              padding: 60px;
+              height: 500px;
+              width: 500px;
+        }
+        .box-size{
+              padding: 20px;
+              font-size: 50px;
+              margin-top: 30px;
+        }
+        .facts-content{
+              margin-left: 300px;
+        }
+        .fact-pera{
+              width: 400px;
+              font-size: 40px;
+        }
+
+        /* -----add new section responsive */
+        .blogs{
+                 
+              grid-template-columns: repeat(1,1fr);
+               margin-left: 200px;
+               padding: 50px;
+              
+      }
+      .blog{
+       height: 300px;
+       width: 300px;
         
-         
-         
+      }
+      .blog-info{
+        padding: 50px;
+      }
+      .new-head{
+       font-size: 70px;
+       margin-left: 90px;
+      }
+
+      /* -----sponspore section responsive */
+
+       .spons-content{
+              margin-left: 300px;
+       }
+       .spons-head{
+              font-size: 80px;
+       }
+       .spons-pera{
+              font-size: 45px;
+              width: 400px;
+       }
+       .spons-img{
+              flex-direction: column;
+              row-gap: 50px;
+              margin-top: 90px;
+              margin-left: 350px;
+       }
+
+       /* --------- 
+       footer section
+       */
+
+       .footer{
+         margin-left: 30px; 
+       }
+       .footer-content{
+              width: 700px;
+       }
+       }
+        
