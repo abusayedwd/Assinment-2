@@ -22,11 +22,13 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
+         
  }
  ul li{
        list-style: none;
        padding: 10px;
        margin-right: 20px;
+       margin-top: 20px;
  }
  ul{
        display: flex;
@@ -34,6 +36,7 @@ body{
  .architects{
         font-style: bold;
         font-size: 35px;
+        margin-top: 20px;
  }
  
        
